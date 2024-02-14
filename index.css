@@ -11,7 +11,6 @@ body {
 
 .left {
     text-align: left;
-    padding: 4.5rem 2.5rem;
     background: #2C2931;
     max-width: 200px;
     width: 100%;
@@ -20,18 +19,29 @@ body {
 ul {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;  
+    justify-content: center; 
+    align-items: left;
+    gap: 1rem;
 }
 
 li {
     list-style: none;
     color: white;
     font-size: 1rem;
+    padding: 1rem 2.5rem;
 }
 
 li:hover {
     background-color: #2D7DFF;
+    cursor: pointer;
+}
+
+.backbtn {
+    transform: scaleX(-1);
+    padding: 1rem 2.5rem;
+    margin-top: 0.5rem;
+}
+.backbtn:hover {
     cursor: pointer;
 }
 .menu-btn {
