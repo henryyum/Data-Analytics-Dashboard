@@ -29,20 +29,24 @@ li {
     color: white;
     font-size: 1rem;
     padding: 1rem 2.5rem;
+    transition: all 0.3s;
 }
 
 li:hover {
     background-color: #2D7DFF;
     cursor: pointer;
+    transform: translateY(-4px)
 }
 
 .backbtn {
     transform: scaleX(-1);
     padding: 1rem 2.5rem;
     margin-top: 0.5rem;
+    transition: all 0.3s;
 }
 .backbtn:hover {
     cursor: pointer;
+    transform: scaleX(-1) translateX(6px)
 }
 .menu-btn {
     width: 20px;
@@ -93,9 +97,12 @@ li:hover {
     padding: 0.5rem 0.8rem;
     background-color: transparent;
     border: 1px solid #4D4D4D;
+    transition: all 0.3s;
+    border-radius: 4px;
 }
 
 .btn-wrapper button:hover {
     background-color: #2D7DFF;
     cursor: pointer;
+    transform: translateY(-4px)
 }
